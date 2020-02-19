@@ -1,7 +1,7 @@
 #package{
 	width: 720px;
 	height: 240px;
-	background-color: orange;
+	background-color: brown;
 	/* horizontal + vertical center align - parent div */
 	position: relative;
 	/*//////*/
@@ -16,11 +16,11 @@
 	transform: translate(-50%, -50%);
 	/*//////*/
 	font-size: 100px;
-	color:yellow;
+	color:red;
 	font-style: italic;
 	font-weight: bold;
 	-webkit-text-stroke-width: 3px;
-	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-color: white;
 	letter-spacing: -3px;
 }
 
