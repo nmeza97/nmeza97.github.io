@@ -99,19 +99,19 @@ video {
 	opacity:0.5;
 }
 .controls button[data-state="play"] {
-	background-image: url('../media/buttons-play.png');
+	background-image: url('../media/playbutton.png');
 }
 .controls button[data-state="pause"] {
-	background-image: url('../media/buttons-pause.png');
+	background-image: url('../media/pausebutton.png');
 }
 .controls button[data-state="stop"] {
-	background-image: url('../media/buttons-stop.png');
+	background-image: url('../media/stopbutton.png');
 }
 .controls button[data-state="mute"] {
-	background-image: url('../media/buttons-mute.png');
+	background-image: url('../media/mutebutton.png');
 }
 .controls button[data-state="unmute"] {
-	background-image: url('../media/buttons-unmute.png');
+	background-image: url('../media/volumebutton.png');
 }
 .controls button[data-state="volup"] {
 	background-image: url('../media/buttons-volup.png');
