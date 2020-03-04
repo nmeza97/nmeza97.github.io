@@ -114,10 +114,10 @@ video {
 	background-image: url('../media/volumebutton.png');
 }
 .controls button[data-state="volup"] {
-	background-image: url('../media/buttons-volup.png');
+	background-image: url('../media/volupbutton.png');
 }
 .controls button[data-state="voldown"] {
-	background-image: url('../media/buttons-voldown.png');
+	background-image: url('../media/voldownbutton.png');
 }
 
 .controls progress {
