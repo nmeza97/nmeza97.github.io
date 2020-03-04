@@ -28,8 +28,8 @@
 
 #subtitle{
 	position: absolute;
-	top: 34%;
-	left: 40%;
+	top: 64%;
+	left: 50%;
 	font-family: sans-serif;
 	font-style: italic;
 	font-weight: bold;
@@ -47,7 +47,7 @@
 	letter-spacing: 4px;
 	font-size: 16px;
 	color: yellow;
-	background-color: gold;
+	background-color: black;
 	padding:9px;
 }
 
