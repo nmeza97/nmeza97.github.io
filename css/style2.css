@@ -1,0 +1,12 @@
+.landing_animation_container{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	animation-name: black_background_animation;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}

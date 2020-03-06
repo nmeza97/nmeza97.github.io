@@ -1,12 +1,12 @@
 body{
-	background-color: #dddddd;
+	background-color: #ddddfd;
 }
 
 .main_div{
 	width: 50%;
 	background-color: transparent;
 	border-radius: 40px;
-	border:1px dotted black;
+	border: 3px dotted black;
 }
 
 #img1{
