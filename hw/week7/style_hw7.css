@@ -1,0 +1,96 @@
+body{
+	 background-color: black;
+  	width: 1400px;
+    height: 2200px;
+    padding:  10px;
+}
+
+main{
+	background-color: black;
+ 	width: 1400px;
+    height: 2200px;
+    margin: auto;
+    padding:  10px;
+}
+
+p{
+  font-size: 40px;
+  background-color: white;
+  padding: 5px;
+}
+
+
+#massage{
+	color: white;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5vw ;
+    font-size: 75px;
+    animation-duration: 3s;
+	 animation-name: slidein;
+	 animation-iteration-count:  3;
+  	animation-direction: alternate;
+}
+
+
+
+@keyframes slidein {
+from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: minmax(100px, max-content)
+                       repeat(auto-fill, 400px) 20%;
+  gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+}
+.one {
+  grid-column: 3;
+  grid-row: 3 ;
+}
+
+.two {
+  grid-column: 3;
+  grid-row: 1 / 2 ;
+  margin: auto;
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  color: white;
+  animation-name: two;
+  animation-duration:  10s ;
+  animation-timing-function: ease-in;
+}
+
+@keyframes two {
+  50% {transform: rotate(180deg);}
+}
+}
+
+.three {
+  grid-column: 2;
+  grid-row: 2 / 4;
+}
+.four {
+  grid-column: 1;
+  grid-row: 3 / 4;
+}
+
+footer{
+  text-align: center;
+  padding: 10px;
+}
+
+

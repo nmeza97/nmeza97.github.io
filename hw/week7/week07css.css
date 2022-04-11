@@ -1,0 +1,75 @@
+body{
+	background-color: black;
+ 	width: 500px;
+    height: 1400px;
+    margin: 0 auto;
+    padding:  10px;
+}
+main{
+	background-color: black;
+ 	width: 500px;
+    height: 1400px;
+    margin: 0 auto;
+    padding:  10px;
+
+}
+#intro{
+	font-family: Rock 3D;
+	color: white;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5vw ;
+    font-size: 75px;
+}
+#massage{
+	font-family: Rock 3D;
+	color: white;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5vw ;
+    font-size: 75px;
+    animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.p1{
+	font-family: helvetica;
+	color: white;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5vw ;
+    font-size: 30px;
+}	
+.quotetext{
+	float: center;
+	font-family: Rock 3D;
+	color: white;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5vw ;
+    font-size: 75px;
+    animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}

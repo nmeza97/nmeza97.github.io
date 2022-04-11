@@ -1,0 +1,35 @@
+body{
+	 background-color: black;
+  	width: 700px;
+    height: 1700px;
+    margin: 10 auto;
+    padding:  10px;
+}
+
+main{
+	background-color: black;
+ 	width: 600px;
+    height: 225px;
+    margin: 0 auto;
+    padding:  10px;
+}
+
+h1{
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto ;
+  margin-right: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+footer{
+	text-align: center;
+	align-content: flex-end;
+  padding: 10px;
+}
